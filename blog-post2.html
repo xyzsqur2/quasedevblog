@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>DevBlog - Bootstrap 5 Blog Template For Developers</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Blog Template">
+	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+
+	<!-- Plugin CSS -->
+	<link rel="stylesheet" href="assets/plugins/highlight/styles/monokai-sublime.css">
+
+	<!-- Theme CSS -->
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+
+
+	<style>
+		.video-responsive {
+			position: relative;
+			padding-bottom: 56.25%;
+			/* 16:9 */
+			padding-top: 25px;
+			height: 0;
+			overflow: hidden;
+		}
+
+		.video-responsive iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			border: 0;
+		}
+
+		/* Deixa o post mais à esquerda em telas grandes */
+		@media (min-width: 992px) {
+			.container.single-col-max-width {
+				margin-left: -200px;
+				margin-right: auto;
+				float: none;
+				max-width: 800px;
+			}
+
+			.blog-post {
+				margin-left: 0;
+				margin-right: auto;
+				float: none;
+				max-width: 900px;
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<header class="header text-center">
+		<h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="index.html">Blog quaseDev</a></h1>
+
+		<nav class="navbar navbar-expand-lg navbar-dark">
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
+				aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column">
+				<div class="profile-section pt-3 pt-lg-0">
+					<img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/quaseDev.png" alt="image">
+
+					<div class="bio mb-3">Olá, meu nome é Carlos. Sou Analista de Sistema por formação e atuo na area de
+						TI como full stack developer.<br>
+						Estou fazendo da minha profissão um negocio, e nesse blog você vai encontrar exemplos de
+						projetos que estou desenvolvendo, dicas de programação, e muito mais.<br>
+
+						<a href=""></a>
+					</div><!--//bio-->
+					<ul class="social-list list-inline py-3 mx-auto">
+						<li class="list-inline-item"><a
+								href="https://www.linkedin.com/in/carlos-lacerda-dos-santos-326ab6369/"
+								target="_blank"><i class="fa-brands fa-linkedin-in fa-fw"></i></a></li>
+						<li class="list-inline-item"><a href="https://github.com/CarlosLacerdaSantos" target="_blank"><i
+									class="fa-brands fa-github-alt fa-fw"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.youtube.com/@quaseDev" target="_blank"><i
+									class="fa-brands fa-youtube fa-fw"></i></a></li>
+					</ul><!--//social-list-->
+					<hr>
+				</div><!--//profile-section-->
+
+				<ul class="navbar-nav flex-column text-start">
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html"><i class="fas fa-home fa-fw me-2"></i>Blog Home
+							<span class="sr-only">(current)</span></a>
+					</li>
+
+				</ul>
+
+				<div class="my-2 my-md-3">
+					<a class="btn btn-primary" href="mailto:xyzsqur2@proton.me" target="_blank">Entre em contato</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<div class="main-wrapper">
+
+
+
+		<div class="main-wrapper">
+
+			<article class="blog-post px-3 py-5 p-md-5">
+				<div class="container single-col-max-width">
+					<h2>🎬 Como Criar um Site Completo de Filmes Usando JavaScript Vanilla</h2>
+
+					<p>Você já imaginou criar uma plataforma de filmes com funcionalidades modernas, responsiva e sem
+						depender de frameworks como React ou Vue? Neste tutorial, vou te mostrar como é possível
+						desenvolver um <strong>site completo de filmes</strong> utilizando apenas <strong>JavaScript
+							puro (Vanilla JS)</strong>, HTML5 e CSS3!</p>
+
+
+					<div class="video-responsive">
+						<iframe src="https://www.youtube.com/embed/zfIP6erJA-8?si=2-g9pLvVKt64cOHf"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</div>
+					
+
+					<div class="blog-post-body">
+
+
+
+						<div class="highlight">
+							👉 <strong>Projeto online + APK disponível aqui:</strong><br>
+							<a href="https://cinetop.onrender.com" target="_blank">https://cinetop.onrender.com</a>
+						</div>
+
+						<h2>✨ Funcionalidades do Projeto</h2>
+
+						<p>Esse projeto demonstra o poder do JavaScript puro e como ele pode ser utilizado para
+							construir algo realmente útil e visualmente atrativo. Ele inclui:</p>
+
+						<ul>
+							<li>✅ Lista de <strong>filmes populares em tempo real</strong>, atualizada via API</li>
+							<li>✅ <strong>Busca de filmes</strong> com exibição instantânea dos resultados</li>
+							<li>✅ Exibição de <strong>plataformas de streaming</strong> onde assistir cada título</li>
+							<li>✅ Código 100% em <strong>JavaScript Vanilla</strong>, sem frameworks!</li>
+						</ul>
+
+						<h2>🧰 Tecnologias Utilizadas</h2>
+
+						<p>Este projeto utiliza uma stack simples e eficiente:</p>
+
+						<ul>
+							<li><strong>HTML5 e CSS3</strong> – Estrutura semântica e design responsivo</li>
+							<li><strong>JavaScript Vanilla</strong> – Toda a lógica da aplicação é feita sem frameworks
+							</li>
+							<li><strong>API do TMDB (The Movie Database)</strong> – Para obter dados dos filmes</li>
+							<li><strong>Manipulação do DOM</strong> – Para atualizar dinamicamente a interface</li>
+							<li><strong>Capacitor + Android Studio</strong> – Para gerar o <code>.apk</code> e
+								transformar o site em um app Android</li>
+						</ul>
+
+						<h2>📱 Transformando em App Android</h2>
+
+						<p>Além da versão web, o projeto também está disponível como aplicativo Android. Usando o <a
+								href="https://capacitorjs.com/" target="_blank">Capacitor.js</a>, você pode converter
+							sua aplicação web em um app nativo facilmente. Após empacotar o projeto, finalizei o
+							processo usando o <strong>Android Studio</strong> para gerar o <code>cinetop.apk</code>.</p>
+
+						<h2>🚀 Resultado Final</h2>
+
+						<p><strong>Cinetop</strong> é a prova de que dá sim para criar aplicações completas e modernas
+							com tecnologias básicas da web.</p>
+
+						<p>Essa é uma ótima maneira de aprender sobre:</p>
+
+						<ul>
+							<li>Integração com APIs externas</li>
+							<li>Manipulação do DOM</li>
+							<li>Estruturação de projetos com JS puro</li>
+							<li>Transformação de projetos web em apps móveis</li>
+						</ul>
+
+						<div class="highlight">
+							🔗 <strong>Acesse, explore e baixe o app:</strong><br>
+							<a href="https://cinetop.onrender.com" target="_blank">https://cinetop.onrender.com</a>
+						</div>
+
+						<h2>💬 Feedback e Contribuições</h2>
+
+						<p>Gostou do projeto? Tem sugestões ou quer contribuir? Fique à vontade para comentar ou entrar
+							em contato comigo pelas redes sociais ou via e-mail.</p>
+
+						<p>Obrigado por ler! 🚀</p>
+
+
+					</div>
+
+
+					<nav class="blog-nav nav nav-justified my-5">
+						<a class="nav-link-prev nav-item nav-link rounded-left" href="./blog-post.html">Previous<i
+								class="arrow-prev fas fa-long-arrow-alt-left"></i></a>
+						<a class="nav-link-next nav-item nav-link rounded-right" href="#">Next<i
+								class="arrow-next fas fa-long-arrow-alt-right"></i></a>
+					</nav>
+
+					<div class="blog-comments-section">
+						<div class="disqus" id="disqus_thread"></div>
+						<script>
+							/**
+							*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+							*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+							/*
+							var disqus_config = function () {
+							this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+							this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+							};
+							*/
+							(function () { // DON'T EDIT BELOW THIS LINE
+								var d = document, s = d.createElement('script');
+								s.src = 'https://quasedev.disqus.com/embed.js';
+								s.setAttribute('data-timestamp', +new Date());
+								(d.head || d.body).appendChild(s);
+							})();
+						</script>
+						<noscript>para ver os comentarios abilite o JavaScript <a
+								href="https://disqus.com/?ref_noscript">criado por
+								Disqus.</a></noscript>
+					</div><!--//blog-comments-section-->
+
+				</div><!--//container-->
+			</article>
+
+			
+
+			
+
+		</div><!--//main-wrapper-->
+
+		<section class="promo-section theme-bg-light py-5 text-center">
+				<div class="container">
+					<h5 class="title">Coloque seu anuncio aqui</h5>
+					
+						<p>contato através do email </p>xyzsqur2@proton.me
+					
+					<p> </p>
+					<figure class="promo-figure">
+						<a href=""><img class="img-fluid" src="assets/images/R.jpg" alt="image"></a>
+					</figure>
+				</div><!--//container-->
+			</section><!--//promo-section-->
+
+		<footer class="footer text-center py-2 theme-bg-dark">
+
+				<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+				<small class="copyright"> <span class="sr-only">love</span><i class="fas fa-heart"
+						style="color: #fb866a;"></i> <b>Mr. Blob para quaseDev solutions </b></small>
+
+			</footer>
+
+
+		<!-- Javascript -->
+		<script src="assets/plugins/popper.min.js"></script>
+		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Page Specific JS -->
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+
+		<!-- Custom JS -->
+		<script src="assets/js/blog.js"></script>
+
+
+</body>
+
+</html>
